@@ -84,7 +84,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define ENCODERS_PAD_A \
     { F7, F6 } // Remaping PIN
 #define ENCODERS_PAD_B \
-    { F5, F4 } Remaping PIN
+    { F5, F4 } //Remaping PIN
 
 /* Tap Dance timing */
 #define TAPPING_TERM 200
