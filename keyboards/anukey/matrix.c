@@ -23,8 +23,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "quantum.h"
 
 // Encoder things
-#define SWITCH_1 B2
-#define SWITCH_2 B3
+#define SWITCH_1 B2 // Remaping PIN
+#define SWITCH_2 B3 // Remaping PIN
 static bool read_encoder_switches(matrix_row_t current_matrix[], uint8_t current_row);
 
 #ifdef MATRIX_MASKED
