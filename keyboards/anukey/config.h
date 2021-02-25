@@ -41,14 +41,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  *
  */
 #define MATRIX_ROW_PINS \
-    { D1, D0, D4, C6 }
+    { D1, D0, D4, C6 } // Remaping PIN
 #define MATRIX_COL_PINS \
-    { D7, E6, B4, B5 }
+    { D7, E6, B4, B5 } // Remaping PIN
 
 /* COL2ROW, ROW2COL*/
 #define DIODE_DIRECTION COL2ROW
 
-#define RGB_DI_PIN B6
+#define RGB_DI_PIN B6 // Remaping PIN
 // #ifdef RGB_DI_PIN
 #define RGBLED_NUM 11
 #define RGBLIGHT_HUE_STEP 8
@@ -82,9 +82,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* ENCODER THINGS */
 // #define ENCODER_DIRECTION_FLIP
 #define ENCODERS_PAD_A \
-    { F7, F6 }
+    { F7, F6 } // Remaping PIN
 #define ENCODERS_PAD_B \
-    { F5, F4 }
+    { F5, F4 } Remaping PIN
 
 /* Tap Dance timing */
 #define TAPPING_TERM 200
